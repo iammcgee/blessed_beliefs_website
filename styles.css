@@ -85,4 +85,26 @@ footer {
     max-width: 90%;
     height: auto;
   }
+
+#menu-toggle {
+    display: block;
+    margin-top: 1rem;
+  }
+
+  #nav-menu {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+
+  #nav-menu.active {
+    display: flex;
+  }
+
+  nav a {
+    display: block;
+    font-size: 1.2rem;
+  }
 }
