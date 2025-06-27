@@ -21,6 +21,28 @@ nav a {
   text-align: center;
   background: #eee;
 }
+
+.hero {
+  background: #eee;
+  padding: 3rem;
+  text-align: center;
+}
+.mission, .featured-book {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+}
+.featured-book em {
+  font-style: italic;
+}
+.featured-book a {
+  display: inline-block;
+  margin-top: 1rem;
+  text-decoration: none;
+  color: #0066cc;
+}
+
 footer {
   padding: 1rem;
   text-align: center;
