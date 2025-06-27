@@ -1,4 +1,3 @@
-
 body {
   font-family: Arial, sans-serif;
   background: #f9f9f9;
@@ -22,6 +21,7 @@ nav a {
   margin: 0 1rem;
   text-decoration: none;
   color: #333;
+  display: inline-block;
 }
 
 main {
@@ -54,4 +54,35 @@ footer {
   text-align: center;
   background: #fff;
   border-top: 2px solid #ccc;
+}
+
+/* 📱 Mobile Optimization */
+@media (max-width: 768px) {
+  nav a {
+    display: block;
+    margin: 0.5rem 0;
+  }
+
+  .store-item {
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  main {
+    padding: 1rem;
+  }
+
+  .hero {
+    padding: 2rem 1rem;
+  }
+
+  .mission, .featured-book, .store-item, .content {
+    padding: 1rem;
+    margin: 1rem auto;
+  }
+
+  img {
+    max-width: 90%;
+    height: auto;
+  }
 }
